@@ -1,22 +1,22 @@
 /** @type {import("pliny/config").PlinyConfig } */
 const siteMetadata = {
-  title: 'Next.js Starter Blog',
-  author: 'Tails Azimuth',
-  headerTitle: 'TailwindBlog',
-  description: 'A blog created with Next.js and Tailwind.css',
+  title: 'Natured-based City Solutions',
+  author: 'Julia Zimmermann',
+  headerTitle: 'Nature-based City Solutions',
+  description: 'A blog featuring natured-based city solutions',
   language: 'en-us',
   theme: 'system', // system, dark or light
-  siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',
-  siteRepo: 'https://github.com/timlrx/tailwind-nextjs-starter-blog',
+  siteUrl: 'https://the-nature-based-blog.vercel.app/',
+  siteRepo: 'https://github.com/julizet/theblog',
   siteLogo: '/static/images/logo.png',
   socialBanner: '/static/images/twitter-card.png',
   mastodon: 'https://mastodon.social/@mastodonuser',
-  email: 'address@yoursite.com',
-  github: 'https://github.com',
-  twitter: 'https://twitter.com/Twitter',
+  email: 'juliazet@gmx.de',
+  github: 'https://github.com/julizet',
+  twitter: 'https://twitter.com/juliazet0',
   facebook: 'https://facebook.com',
   youtube: 'https://youtube.com',
-  linkedin: 'https://www.linkedin.com',
+  linkedin: 'https://de.linkedin.com/in/julia-zimmermann-325026207',
   locale: 'en-US',
   analytics: {
     // If you want to use an analytics provider you have to add it to the
