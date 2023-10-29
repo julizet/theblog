@@ -4,7 +4,7 @@ import SocialIcon from '@/components/social-icons'
 
 export default function Footer() {
   return (
-    <footer className="border-t border-solid border-gray-300 mt-20">
+    <footer className="border-gray-30 mt-20 border-t border-solid">
       <div className="mt-16 flex flex-col items-center">
         <div className="mb-3 flex space-x-4">
           <SocialIcon kind="mail" href={`mailto:${siteMetadata.email}`} size={6} />
@@ -22,11 +22,12 @@ export default function Footer() {
           <Link href="/">{siteMetadata.title}</Link>
         </div>
         <div className="mb-8 text-sm text-gray-500 dark:text-gray-400">
-          <p>Amazing NextJS Blog Template based on <b><Link href="https://github.com/timlrx/tailwind-nextjs-starter-blog">
-            this Theme
-          </Link>
-          </b></p>
-
+          <p>
+            Amazing NextJS Blog Template based on{' '}
+            <b>
+              <Link href="https://github.com/timlrx/tailwind-nextjs-starter-blog">this Theme</Link>
+            </b>
+          </p>
         </div>
       </div>
     </footer>
