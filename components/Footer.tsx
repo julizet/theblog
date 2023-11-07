@@ -25,7 +25,9 @@ export default function Footer() {
           <p>
             Amazing NextJS Blog Template based on{' '}
             <b>
-              <Link href="https://github.com/timlrx/tailwind-nextjs-starter-blog">this Theme</Link>
+              <Link href="https://github.com/timlrx/tailwind-nextjs-starter-blog">
+                this Template
+              </Link>
             </b>
           </p>
         </div>
